@@ -1,0 +1,2377 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User is logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6015728758,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the URL \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginSteps.launchTheURL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 208279376,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter EmailId \"piyush@amuratech.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "piyush@amuratech.com",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginSteps.enterEmailId(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121440027,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Password \"piyush23\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "piyush23",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginSteps.enterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4585257284,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Sign In button",
+            "match": {
+              "location": "LoginSteps.clickOnSignInButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 374769,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeRunning(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Validate reverse syncing when no campaigns are synced",
+        "description": "",
+        "id": "reverse-syncing-with-and-without-synced-campaigns;validate-reverse-syncing-when-no-campaigns-are-synced",
+        "after": [
+          {
+            "result": {
+              "duration": 220941,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterRunning(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 19479,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterRunningMail()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10172725974,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click \u0027Add Media Plan\u0027 button",
+            "match": {
+              "location": "StartSteps.clickAddMediaPlanButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21123354,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be on start page",
+            "match": {
+              "location": "StartSteps.userShouldBeOnStartPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 615542723,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter Name \"Testing the reverse syncing for media plans with synced campaigns\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing the reverse syncing for media plans with synced campaigns",
+                  "offset": 12
+                }
+              ],
+              "location": "StartSteps.enterName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 145445627,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter Budget \"100000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100000",
+                  "offset": 14
+                }
+              ],
+              "location": "StartSteps.enterBudget(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1556511760,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Select the Date range",
+            "match": {
+              "location": "StartSteps.selectTheDateRange()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2258340256,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 18,
+                "value": "# Enable advertising account for Adwords"
+              }
+            ],
+            "line": 19,
+            "name": "Enable advertising account for Adwords",
+            "match": {
+              "location": "StartSteps.enableAdvertisingAccountForAdwords()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 171758032,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Select Adwords campaign type",
+            "match": {
+              "location": "StartSteps.selectAdwordsCampaignType()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2217957916,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Choose Adwords account",
+            "match": {
+              "location": "StartSteps.chooseAdwordsAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2195159930,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 22,
+                "value": "#    And Click Next button"
+              },
+              {
+                "line": 24,
+                "value": "# Enable advertising account for Facebook"
+              }
+            ],
+            "line": 25,
+            "name": "Enable advertising account for Facebook",
+            "match": {
+              "location": "StartSteps.enableAdvertisingAccountForFacebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2165150246,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Click the Facebook",
+            "match": {
+              "location": "StartSteps.clickTheFacebook()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123003197,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Select Facebook campaign types",
+            "match": {
+              "location": "StartSteps.selectFacebookCampaignTypes()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3200452309,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Choose Facebook account",
+            "match": {
+              "location": "StartSteps.chooseFacebookAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1328121720,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Select the Page",
+            "match": {
+              "location": "StartSteps.selectThePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2199052973,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 30,
+                "value": "#    And Click Next button"
+              },
+              {
+                "line": 32,
+                "value": "# Enable advertising account for LinkedIn"
+              }
+            ],
+            "line": 33,
+            "name": "Enable advertising account for LinkedIn",
+            "match": {
+              "location": "StartSteps.enableAdvertisingAccountForLinkedIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2172608173,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click LinkedIn",
+            "match": {
+              "location": "StartSteps.clickLinkedIn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2156057093,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Choose LinkedIn Campaign Types",
+            "match": {
+              "location": "StartSteps.chooseLinkedInCampaignTypes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1171791538,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Choose LinkedIn Account",
+            "match": {
+              "location": "StartSteps.chooseLinkedInAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233482662,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Click Next button",
+            "match": {
+              "location": "StartSteps.clickNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4124939379,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 39,
+                "value": "# Fetching campaigns for Adwords"
+              }
+            ],
+            "line": 40,
+            "name": "Click menu icon",
+            "match": {
+              "location": "AgencyActivateSteps.clickMenuIcon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2202301876,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Select Reverse syncing",
+            "match": {
+              "location": "ReverseSyncingSteps.selectReverseSyncing()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17728431,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User should be on Reverse syncing page",
+            "match": {
+              "location": "ReverseSyncingSteps.userShouldBeOnReverseSyncingPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3993523611,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Click Fetch for New campaigns",
+            "match": {
+              "location": "ReverseSyncingSteps.clickFetchForNewCampaigns()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3291956422,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Select campaigns to save them",
+            "match": {
+              "location": "ReverseSyncingSteps.selectCampaignsToSaveThem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38713185734,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Existing Campaigns accordion should get generated",
+            "match": {
+              "location": "ReverseSyncingSteps.existingCampaignsAccordionShouldGetGenerated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2725052380,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Click Fetch for Existing campaigns",
+            "match": {
+              "location": "ReverseSyncingSteps.clickFetchForExistingCampaigns()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7387279367,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 48,
+                "value": "# Fetching campaigns for Facebook"
+              }
+            ],
+            "line": 49,
+            "name": "Click Fetch for New Campaigns of Facebook",
+            "match": {
+              "location": "ReverseSyncingSteps.clickFetchForNewCampaignsOfFacebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2482003720,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Select campaigns to save them for Facebook",
+            "match": {
+              "location": "ReverseSyncingSteps.selectCampaignsToSaveThemForFacebook()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38695635628,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Existing Campaigns accordion should get generated for Facebook",
+            "match": {
+              "location": "ReverseSyncingSteps.existingCampaignsAccordionShouldGetGeneratedForFacebook()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2700834873,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Click Fetch for Existing campaigns for Facebook",
+            "match": {
+              "location": "ReverseSyncingSteps.clickFetchForExistingCampaignsForFacebook()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20406533447,
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id\u003d\"container\"]/header/div/div/div/div[3]/div/div/a/span (tried for 20 second(s) with 500 MILLISECONDS interval)\nBuild info: version: \u00273.7.0\u0027, revision: \u00272321c73\u0027, time: \u00272017-11-02T22:22:35.584Z\u0027\nSystem info: host: \u0027amura-Latitude-3460\u0027, ip: \u0027127.0.1.1\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00273.13.0-45-generic\u0027, java.version: \u00271.8.0_171\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}\nSession ID: d1a6f1b87abb066777a73ee55353fa7f\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\n\tat amura.selenium.driver.TestDriver.mySignOut(TestDriver.java:2442)\n\tat amura.selenium.pages.LoginPage.signOut(LoginPage.java:61)\n\tat amura.selenium.steps.LoginSteps.signOut(LoginSteps.java:72)\n\tat ✽.And Sign out(reverseSyncing.feature:53)\n",
+              "status": "failed"
+            },
+            "line": 53,
+            "name": "Sign out",
+            "match": {
+              "location": "LoginSteps.signOut()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 889127067,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the URL \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginSteps.launchTheURL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35751533,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"user_email\"}\n  (Session info: chrome\u003d67.0.3396.99)\n  (Driver info: chromedriver\u003d2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform\u003dLinux 3.13.0-45-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.7.0\u0027, revision: \u00272321c73\u0027, time: \u00272017-11-02T22:22:35.584Z\u0027\nSystem info: host: \u0027amura-Latitude-3460\u0027, ip: \u0027127.0.1.1\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00273.13.0-45-generic\u0027, java.version: \u00271.8.0_171\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}\nSession ID: d1a6f1b87abb066777a73ee55353fa7f\n*** Element info: {Using\u003did, value\u003duser_email}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:416)\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)\n\tat amura.selenium.driver.TestDriver.myEnter(TestDriver.java:90)\n\tat amura.selenium.pages.LoginPage.enterEmailId(LoginPage.java:49)\n\tat amura.selenium.steps.LoginSteps.enterEmailId(LoginSteps.java:56)\n\tat ✽.When Enter EmailId \"piyush@amuratech.com\"(reverseSyncing.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Enter EmailId \"piyush@amuratech.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "piyush@amuratech.com",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginSteps.enterEmailId(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Enter Password \"piyush23\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "piyush23",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginSteps.enterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Click on Sign In button",
+            "match": {
+              "location": "LoginSteps.clickOnSignInButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 55,
+            "value": "# Fetching campaigns for LinkedIn"
+          },
+          {
+            "line": 56,
+            "value": "#    When Click Fetch for New Campaigns of LinkedIn"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 61859,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeRunning(Scenario)"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "Validate reverse syncing when the campaigns are synced",
+        "description": "",
+        "id": "reverse-syncing-with-and-without-synced-campaigns;validate-reverse-syncing-when-the-campaigns-are-synced",
+        "after": [
+          {
+            "result": {
+              "duration": 120518,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterRunning(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 14921,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterRunningMail()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "Click \u0027Add Media Plan\u0027 button",
+            "match": {
+              "location": "StartSteps.clickAddMediaPlanButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "User should be on start page",
+            "match": {
+              "location": "StartSteps.userShouldBeOnStartPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "Enter Name \"Testing the plan for reverse syncing with synced campaigns\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing the plan for reverse syncing with synced campaigns",
+                  "offset": 12
+                }
+              ],
+              "location": "StartSteps.enterName(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "Enter Budget \"100000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100000",
+                  "offset": 14
+                }
+              ],
+              "location": "StartSteps.enterBudget(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 64,
+            "name": "Select the Date range",
+            "match": {
+              "location": "StartSteps.selectTheDateRange()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 65,
+            "name": "Enable advertising account for Adwords",
+            "match": {
+              "location": "StartSteps.enableAdvertisingAccountForAdwords()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 66,
+            "name": "Select Adwords campaign type",
+            "match": {
+              "location": "StartSteps.selectAdwordsCampaignType()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 67,
+            "name": "Choose Adwords account",
+            "match": {
+              "location": "StartSteps.chooseAdwordsAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 69,
+                "value": "# Enable advertising account for Facebook"
+              }
+            ],
+            "line": 70,
+            "name": "Enable advertising account for Facebook",
+            "match": {
+              "location": "StartSteps.enableAdvertisingAccountForFacebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 71,
+            "name": "Click the Facebook",
+            "match": {
+              "location": "StartSteps.clickTheFacebook()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 72,
+            "name": "Select Facebook campaign types",
+            "match": {
+              "location": "StartSteps.selectFacebookCampaignTypes()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 73,
+            "name": "Choose Facebook account",
+            "match": {
+              "location": "StartSteps.chooseFacebookAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 74,
+            "name": "Select the Page",
+            "match": {
+              "location": "StartSteps.selectThePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 76,
+                "value": "# Enable advertising account for LinkedIn"
+              }
+            ],
+            "line": 77,
+            "name": "Enable advertising account for LinkedIn",
+            "match": {
+              "location": "StartSteps.enableAdvertisingAccountForLinkedIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 78,
+            "name": "Click LinkedIn",
+            "match": {
+              "location": "StartSteps.clickLinkedIn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 79,
+            "name": "Choose LinkedIn Campaign Types",
+            "match": {
+              "location": "StartSteps.chooseLinkedInCampaignTypes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 80,
+            "name": "Choose LinkedIn Account",
+            "match": {
+              "location": "StartSteps.chooseLinkedInAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 81,
+            "name": "Click Next button",
+            "match": {
+              "location": "StartSteps.clickNextButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 82,
+            "name": "User should be on product page",
+            "match": {
+              "location": "StartSteps.userShouldBeOnProductPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 84,
+                "value": "# Project page"
+              }
+            ],
+            "line": 85,
+            "name": "Select Project by searching with keywords",
+            "match": {
+              "location": "ProductSteps.selectProjectBySearchingWithKeywords()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 86,
+            "name": "Enter Developer Advertising Name \"Testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing",
+                  "offset": 34
+                }
+              ],
+              "location": "ProductSteps.enterDeveloperAdvertisingName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 87,
+            "name": "Select Project stage",
+            "match": {
+              "location": "ProductSteps.selectProjectStage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 88,
+            "name": "Select the Segment",
+            "match": {
+              "location": "ProductSteps.selectTheSegment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 89,
+            "name": "Enter Landing page URL \"http://www.google.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.google.com",
+                  "offset": 24
+                }
+              ],
+              "location": "ProductSteps.enterLandingPageURL(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 90,
+            "name": "Select Configurations",
+            "match": {
+              "location": "ProductSteps.selectConfigurations()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 91,
+            "name": "Select Property types",
+            "match": {
+              "location": "ProductSteps.selectPropertyTypes()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 92,
+            "name": "Select Property adjectives",
+            "match": {
+              "location": "ProductSteps.selectPropertyAdjectives()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 93,
+            "name": "Click Next button",
+            "match": {
+              "location": "StartSteps.clickNextButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 94,
+            "name": "User should be on creative page",
+            "match": {
+              "location": "CreativeSteps.userShouldBeOnCreativePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 96,
+                "value": "# Creative group for Adwords responsive ad"
+              }
+            ],
+            "line": 97,
+            "name": "Click Creative Groups accordion",
+            "match": {
+              "location": "CreativeSteps.clickCreativeGroupsAccordion()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 98,
+            "name": "Click Google Display accordion to create a creative group",
+            "match": {
+              "location": "CreativeSteps.clickGoogleDisplayAccordionToCreateACreativeGroup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 99,
+            "name": "Select Responsive Ad from the dropdown to add creative group",
+            "match": {
+              "location": "CreativeSteps.selectResponsiveAdFromTheDropdownToAddCreativeGroup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 100,
+            "name": "Enter Creative group name \"Testing creative group for Google Adwords with Responsive Ad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing creative group for Google Adwords with Responsive Ad",
+                  "offset": 27
+                }
+              ],
+              "location": "CreativeSteps.enterCreativeGroupName(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 101,
+            "name": "Select Creatives",
+            "match": {
+              "location": "CreativeSteps.selectCreatives()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 102,
+            "name": "Click Submit button- New creative group for Google",
+            "match": {
+              "location": "CreativeSteps.clickSubmitButtonNewCreativeGroupForGoogle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 104,
+                "value": "# Creative group for Facebook"
+              }
+            ],
+            "line": 105,
+            "name": "Click Facebook Default accordion to create a creative group",
+            "match": {
+              "location": "CreativeSteps.clickFacebookDefaultAccordionToCreateCreativeGroup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 106,
+            "name": "Click on plus button to create a new creative group",
+            "match": {
+              "location": "CreativeSteps.clickOnPlusButtonToCreateANewCreativeGroup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 107,
+            "name": "Enter Creative group name for Facebook \"Testing creative group form for the Facebook\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing creative group form for the Facebook",
+                  "offset": 40
+                }
+              ],
+              "location": "CreativeSteps.enterCreativeGroupNameForFacebook(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 108,
+            "name": "Enter Headline \"Testing headline\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing headline",
+                  "offset": 16
+                }
+              ],
+              "location": "CreativeSteps.enterHeadline(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 109,
+            "name": "Enter Description \"Testing description\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing description",
+                  "offset": 19
+                }
+              ],
+              "location": "CreativeSteps.enterDescription(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 110,
+            "name": "Select Asset",
+            "match": {
+              "location": "CreativeSteps.selectAsset()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 111,
+            "name": "Click Submit button- New creative group",
+            "match": {
+              "location": "CreativeSteps.clickSubmitButtonNewCreativeGroup()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 113,
+                "value": "# Marketing pitch for Adwords"
+              }
+            ],
+            "line": 114,
+            "name": "Click Marketing pitch accordion",
+            "match": {
+              "location": "CreativeSteps.clickMarketingPitchAccordion()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 115,
+            "name": "Click plus icon to create new marketing pitch for Adwords",
+            "match": {
+              "location": "CreativeSteps.clickPlusIconToCreateNewMarketingPitchForAdwords()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 116,
+            "name": "Enter Communication name \"Testing for adwords search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing for adwords search",
+                  "offset": 26
+                }
+              ],
+              "location": "CreativeSteps.enterCommunicationName(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 117,
+            "name": "Enter Description \"Testing for the adwords search description\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing for the adwords search description",
+                  "offset": 19
+                }
+              ],
+              "location": "CreativeSteps.enterDescription(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 118,
+            "name": "Select Marketing Images from the dropdown",
+            "match": {
+              "location": "CreativeSteps.selectMarketingImagesFromTheDropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 119,
+            "name": "Click Save button",
+            "match": {
+              "location": "CreativeSteps.clickSaveButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 120,
+                "value": "#    And Click Next button"
+              },
+              {
+                "line": 122,
+                "value": "# Marketing pitch for Facebook"
+              }
+            ],
+            "line": 123,
+            "name": "Click plus icon to create new marketing pitch for Facebook",
+            "match": {
+              "location": "CreativeSteps.clickPlusIconToCreateNewMarketingPitchForFacebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 124,
+            "name": "Enter Communication name for facebook \"Testing Facebook Marketing Pitch\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing Facebook Marketing Pitch",
+                  "offset": 39
+                }
+              ],
+              "location": "CreativeSteps.enterCommunicationNameForFacebook(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 125,
+            "name": "Enter Ad\u0027s description \"Testing ad description for the facebook default campaign\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing ad description for the facebook default campaign",
+                  "offset": 24
+                }
+              ],
+              "location": "CreativeSteps.enterAdSDescription(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 126,
+            "name": "Select Creative Groups from the dropdown",
+            "match": {
+              "location": "CreativeSteps.selectCreativeGroupsFromTheDropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 127,
+            "name": "Click Save button for Facebook",
+            "match": {
+              "location": "CreativeSteps.clickSaveButtonForFacebook()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 128,
+            "name": "Click Next button",
+            "match": {
+              "location": "StartSteps.clickNextButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 129,
+            "name": "User should be on precise control page",
+            "match": {
+              "location": "PreciseTargetingSteps.userShouldBeOnPreciseControlPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 131,
+                "value": "# Precise control page"
+              }
+            ],
+            "line": 132,
+            "name": "Enter Location in Include",
+            "match": {
+              "location": "PreciseTargetingSteps.enterLocationInInclude()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 133,
+            "name": "Select Age Range for Google",
+            "match": {
+              "location": "PreciseTargetingSteps.selectAgeRangeForGoogle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 134,
+            "name": "Select Gender for Google",
+            "match": {
+              "location": "PreciseTargetingSteps.selectGenderForGoogle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 135,
+            "name": "Select Parental Status for Google",
+            "match": {
+              "location": "PreciseTargetingSteps.selectParentalStatusForGoogle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 136,
+                "value": "#    And Click Next button"
+              },
+              {
+                "line": 138,
+                "value": "# Precise control for Facebook"
+              }
+            ],
+            "line": 139,
+            "name": "Click Facebook Default accordion",
+            "match": {
+              "location": "PreciseTargetingSteps.clickFacebookDefaultAccordion()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 140,
+            "name": "Enter Location in Include for Facebook",
+            "match": {
+              "location": "PreciseTargetingSteps.enterLocationInIncludeForFacebook()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 141,
+            "name": "Select the Min and Max Age",
+            "match": {
+              "location": "PreciseTargetingSteps.selectTheMinAndMaxAge()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 142,
+            "name": "Select the Publisher Platforms",
+            "match": {
+              "location": "PreciseTargetingSteps.selectThePublisherPlatforms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 143,
+            "name": "Select Bid On from the dropdown",
+            "match": {
+              "location": "PreciseTargetingSteps.selectBidOnFromTheDropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 144,
+            "name": "Select Bidding Type and Bidding Amount",
+            "match": {
+              "location": "PreciseTargetingSteps.selectBiddingTypeAndBiddingAmount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 145,
+            "name": "Click Next button",
+            "match": {
+              "location": "StartSteps.clickNextButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 146,
+            "name": "User should be on Tracking page",
+            "match": {
+              "location": "TrackingSteps.userShouldBeOnTrackingPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 148,
+                "value": "# Tracking page for Adwords"
+              }
+            ],
+            "line": 149,
+            "name": "Open Google Search accordion",
+            "match": {
+              "location": "TrackingSteps.openGoogleSearchAccordion()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 150,
+            "name": "Enter URL tagging specs  \"utm_source\u003d\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "utm_source\u003d",
+                  "offset": 26
+                }
+              ],
+              "location": "TrackingSteps.enterURLTaggingSpecs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 151,
+            "name": "Enter Phone Number \"1234567890\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567890",
+                  "offset": 20
+                }
+              ],
+              "location": "TrackingSteps.enterPhoneNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 152,
+            "name": "Select Default lead type",
+            "match": {
+              "location": "TrackingSteps.selectDefaultLeadType()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 153,
+                "value": "#    And Click Next button"
+              },
+              {
+                "line": 154,
+                "value": "#    And Click the Confirm button on an alert popup"
+              },
+              {
+                "line": 156,
+                "value": "# Tracking page for Facebook"
+              }
+            ],
+            "line": 157,
+            "name": "Open Facebook Lead Gen accordion",
+            "match": {
+              "location": "TrackingSteps.openFacebookLeadGenAccordion()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 158,
+            "name": "Enter URL tagging specs for Facebook \"utm_source\u003d\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "utm_source\u003d",
+                  "offset": 38
+                }
+              ],
+              "location": "TrackingSteps.enterURLTaggingSpecsForFacebook(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 159,
+            "name": "Enter Phone Number for Facebook \"1234567890\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567890",
+                  "offset": 33
+                }
+              ],
+              "location": "TrackingSteps.enterPhoneNumberForFacebook(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 160,
+            "name": "Select Tracking Pixel",
+            "match": {
+              "location": "TrackingSteps.selectTrackingPixel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 161,
+            "name": "Select Default lead type for Facebook",
+            "match": {
+              "location": "TrackingSteps.selectDefaultLeadTypeForFacebook()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 162,
+            "name": "Click Next button",
+            "match": {
+              "location": "StartSteps.clickNextButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 163,
+            "name": "Click the Confirm button on an alert popup",
+            "match": {
+              "location": "ProductSteps.clickTheConfirmButtonOnAnAlertPopup()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 164,
+            "name": "User should be on Budget page",
+            "match": {
+              "location": "BudgetSteps.userShouldBeOnBudgetPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 166,
+                "value": "# Budget page for Adwords"
+              }
+            ],
+            "line": 167,
+            "name": "Select Google Search from the dropdown to add campaign details",
+            "match": {
+              "location": "BudgetSteps.selectGoogleSearchFromTheDropdownToAddCampaignDetails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 168,
+            "name": "Enter Name of the campaign \"Testing the campaign details\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing the campaign details",
+                  "offset": 28
+                }
+              ],
+              "location": "BudgetSteps.enterNameOfTheCampaign(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 169,
+            "name": "Select Communications",
+            "match": {
+              "location": "BudgetSteps.selectCommunications()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 170,
+            "name": "Select Topics",
+            "match": {
+              "location": "BudgetSteps.selectTopics()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 171,
+            "name": "Enter Bid Amount \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 18
+                }
+              ],
+              "location": "BudgetSteps.enterBidAmount(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 172,
+            "name": "Uncheck Default Tracking checkbox",
+            "match": {
+              "location": "BudgetSteps.uncheckDefaultTrackingCheckbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 173,
+            "name": "Click Save button- Google Search Campaign Form",
+            "match": {
+              "location": "BudgetSteps.clickSaveButtonGoogleSearchCampaignForm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 174,
+                "value": "#    And Click Next button"
+              },
+              {
+                "line": 176,
+                "value": "# Budget page for Facebook"
+              }
+            ],
+            "line": 177,
+            "name": "Select Facebook from the dropdown to add campaign details",
+            "match": {
+              "location": "BudgetSteps.selectFacebookFromTheDropdownToAddCampaignDetails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 178,
+            "name": "Enter Name for Facebook \"Testing Facebook Campaign Details\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing Facebook Campaign Details",
+                  "offset": 25
+                }
+              ],
+              "location": "BudgetSteps.enterNameForFacebook(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 179,
+            "name": "Select Communications for Facebook",
+            "match": {
+              "location": "BudgetSteps.selectCommunicationsForFacebook()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 180,
+            "name": "Select the OS",
+            "match": {
+              "location": "BudgetSteps.selectTheOS()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 181,
+            "name": "Select Publisher Platforms- Budget",
+            "match": {
+              "location": "BudgetSteps.selectPublisherPlatformsBudget()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 182,
+            "name": "Select Platform Placement",
+            "match": {
+              "location": "BudgetSteps.selectPlatformPlacement()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 183,
+            "name": "Enter Bid Amount- Facebook budget \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 35
+                }
+              ],
+              "location": "BudgetSteps.enterBidAmountFacebookBudget(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 184,
+            "name": "Click Save button- Facebook budget",
+            "match": {
+              "location": "BudgetSteps.clickSaveButtonFacebookBudget()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 185,
+            "name": "Click Next button",
+            "match": {
+              "location": "StartSteps.clickNextButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 186,
+            "name": "User should be on Goals page",
+            "match": {
+              "location": "GoalSteps.userShouldBeOnGoalsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 188,
+                "value": "# Goals page for Adwords"
+              }
+            ],
+            "line": 189,
+            "name": "Click Google Search accordion",
+            "match": {
+              "location": "GoalSteps.clickGoogleSearchAccordion()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 190,
+            "name": "Enter Cost per Click \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 22
+                }
+              ],
+              "location": "GoalSteps.enterCostPerClick(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 191,
+            "name": "Enter Cost per Lead \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 21
+                }
+              ],
+              "location": "GoalSteps.enterCostPerLead(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 192,
+            "name": "Enter Total Leads \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 19
+                }
+              ],
+              "location": "GoalSteps.enterTotalLeads(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 193,
+            "name": "Enter Lead Velocity \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 21
+                }
+              ],
+              "location": "GoalSteps.enterLeadVelocity(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 194,
+                "value": "#    And Click Next button"
+              },
+              {
+                "line": 195,
+                "value": "#    And Click the Confirm button on an alert popup"
+              },
+              {
+                "line": 197,
+                "value": "# Goals page for Facebook"
+              }
+            ],
+            "line": 198,
+            "name": "Click Facebook Lead Gen accordion",
+            "match": {
+              "location": "GoalSteps.clickFacebookLeadGenAccordion()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 199,
+            "name": "Enter Cost per Click for Facebook \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 35
+                }
+              ],
+              "location": "GoalSteps.enterCostPerClickForFacebook(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 200,
+            "name": "Enter Cost per Lead for Facebook \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 34
+                }
+              ],
+              "location": "GoalSteps.enterCostPerLeadForFacebook(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 201,
+            "name": "Enter Total Leads for Facebook \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 32
+                }
+              ],
+              "location": "GoalSteps.enterTotalLeadsForFacebook(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 202,
+            "name": "Enter Lead Velocity for Facebook \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 34
+                }
+              ],
+              "location": "GoalSteps.enterLeadVelocityForFacebook(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 203,
+            "name": "Click Next button",
+            "match": {
+              "location": "StartSteps.clickNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 204,
+            "name": "Click the Confirm button on an alert popup",
+            "match": {
+              "location": "ProductSteps.clickTheConfirmButtonOnAnAlertPopup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 205,
+            "name": "User should be on Review page",
+            "match": {
+              "location": "ReviewSteps.userShouldBeOnReviewPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 207,
+                "value": "# Review page for Adwords"
+              }
+            ],
+            "line": 208,
+            "name": "Click Google Display accordion for Review",
+            "match": {
+              "location": "ReviewSteps.clickGoogleDisplayAccordionForReview()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 209,
+            "name": "Click Generate Campaigns",
+            "match": {
+              "location": "ReviewSteps.clickGenerateCampaigns()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 210,
+            "name": "Click the Confirm button on an alert popup",
+            "match": {
+              "location": "ProductSteps.clickTheConfirmButtonOnAnAlertPopup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 211,
+            "name": "Click Facebook Conversion accordion for Review",
+            "match": {
+              "location": "ReviewSteps.clickFacebookConversionAccordionForReview()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 212,
+            "name": "Click Generate Campaigns for Facebook",
+            "match": {
+              "location": "ReviewSteps.clickGenerateCampaignsForFacebook()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 213,
+            "name": "Click the Confirm button on an alert popup",
+            "match": {
+              "location": "ProductSteps.clickTheConfirmButtonOnAnAlertPopup()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 214,
+            "name": "Refresh the page to change the status",
+            "match": {
+              "location": "ReviewSteps.refreshThePageToChangeTheStatus()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 216,
+                "value": "# Fetching campaigns for Adwords"
+              }
+            ],
+            "line": 217,
+            "name": "Click menu icon",
+            "match": {
+              "location": "AgencyActivateSteps.clickMenuIcon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 218,
+            "name": "Select Reverse syncing for synced campaigns",
+            "match": {
+              "location": "ReverseSyncingSteps.selectReverseSyncingForSyncedCampaigns()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 219,
+            "name": "User should be on Reverse syncing page",
+            "match": {
+              "location": "ReverseSyncingSteps.userShouldBeOnReverseSyncingPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 220,
+            "name": "Click Fetch for New campaigns",
+            "match": {
+              "location": "ReverseSyncingSteps.clickFetchForNewCampaigns()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 221,
+            "name": "Select campaigns to save them",
+            "match": {
+              "location": "ReverseSyncingSteps.selectCampaignsToSaveThem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 222,
+            "name": "Existing Campaigns accordion should get generated",
+            "match": {
+              "location": "ReverseSyncingSteps.existingCampaignsAccordionShouldGetGenerated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 223,
+            "name": "Click Fetch for Existing campaigns",
+            "match": {
+              "location": "ReverseSyncingSteps.clickFetchForExistingCampaigns()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 225,
+                "value": "# Fetching campaigns for Facebook"
+              }
+            ],
+            "line": 226,
+            "name": "Click Fetch for New Campaigns of Facebook",
+            "match": {
+              "location": "ReverseSyncingSteps.clickFetchForNewCampaignsOfFacebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 227,
+            "name": "Select campaigns to save them for Facebook",
+            "match": {
+              "location": "ReverseSyncingSteps.selectCampaignsToSaveThemForFacebook()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 228,
+            "name": "Existing Campaigns accordion should get generated for Facebook",
+            "match": {
+              "location": "ReverseSyncingSteps.existingCampaignsAccordionShouldGetGeneratedForFacebook()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 229,
+            "name": "Click Fetch for Existing campaigns for Facebook",
+            "match": {
+              "location": "ReverseSyncingSteps.clickFetchForExistingCampaignsForFacebook()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 58,
+            "name": "@reversesmoke"
+          }
+        ]
+      }
+    ],
+    "name": "Reverse Syncing with and without synced campaigns",
+    "description": "This feature file describes about the reverse syncing of the campaigns and the adsets",
+    "id": "reverse-syncing-with-and-without-synced-campaigns",
+    "keyword": "Feature",
+    "uri": "reverseSyncing.feature"
+  }
+]
